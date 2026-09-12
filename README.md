@@ -122,27 +122,6 @@ The cleaned data is stored in a SQLite database using the table:
 ```text
 price_history
 ```
-
----
-
-## 🗄️ SQL Analysis — `queries.sql`
-
-The SQL analysis answers several product and pricing questions, including:
-
-- How many unique books are being tracked?
-- How many scraping days are available?
-- What is the average book price?
-- Which are the 5 most expensive books?
-- Which are the 5 cheapest books?
-- What is the average price by star rating?
-- Which books are currently out of stock?
-- Which products experienced price increases?
-- Which products experienced price decreases?
-- How many records were collected on each scraping date?
-- Are there duplicate product titles?
-
-The SQL analysis also compares the earliest and latest scraping dates to identify price movements.
-
 ---
 
 ## 📊 Power BI Dashboard
