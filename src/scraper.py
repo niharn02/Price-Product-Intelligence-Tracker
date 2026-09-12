@@ -50,11 +50,11 @@ for page in range(1, 51):
 df_all = pd.DataFrame(all_data)
 
 
-# Identify the directory containing this script
-script_dir = os.path.dirname(os.path.abspath(__file__))
+# Identify the project root directory
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Define the path where the historical scraping data will be stored
-file_path = os.path.join(script_dir, "data", "all_books.csv")
+# Define the path for the historical raw dataset
+file_path = os.path.join(project_root, "data", "raw", "all_books.csv")
 
 
 # Append new scraping results if the file already exists;
