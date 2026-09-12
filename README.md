@@ -38,9 +38,6 @@ The scraper processes all 50 catalogue pages and stores the results in a CSV dat
 ```text
 price-product-intelligence-tracker/
 │
-├── data/
-│   ├── raw/
-│   └── processed/
 │
 ├── notebooks/
 │   ├── scraper.ipynb
