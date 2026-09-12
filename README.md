@@ -269,3 +269,7 @@ This project demonstrates practical experience in:
 MSc Computer Science — University of Liverpool
 
 **Interests:** Data Analytics • Business Intelligence • Python • SQL • Power BI • Data Visualisation • Machine Learning
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
