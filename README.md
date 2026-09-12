@@ -49,9 +49,6 @@ price-product-intelligence-tracker/
 ├── src/
 │   └── scraper.py
 │
-├── sql/
-│   └── queries.sql
-│
 ├── dashboard/
 │   └── Product Price Intelligence Tracker.pdf
 │
